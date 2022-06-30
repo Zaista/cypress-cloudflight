@@ -1,12 +1,6 @@
-const resolvePath = require('resolve-package-path');
-const path = require('path');
-
-const cloudflightPower = (on) => {
+export const cloudflightPower = async (on) => {
     on('before:run', async () => {
-        const terminal = await import('terminal-image');
-        const filePath = path.dirname(resolvePath('cypress-cloudflight', '.'));
-        console.log(await terminal.default.file(filePath + '/cloudflight.png'));
+        const logoPath = new URL('./cloudflight.png', import.meta.url);
+        console.log(await terminalImage.file(logoPath));
     });
 }
-
-module.exports = cloudflightPower;
