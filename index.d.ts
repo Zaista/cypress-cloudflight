@@ -1,0 +1,1 @@
+export default function cloudflightPower(on: any): void;
