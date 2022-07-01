@@ -1,6 +1,6 @@
 {
   "name": "cypress-cloudflight",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "dependencies": {
     "terminal-image": "^1.2.1"
