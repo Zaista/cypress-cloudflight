@@ -1,8 +1,9 @@
 {
   "name": "cypress-cloudflight",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "dependencies": {
+    "print-image-cli": "^1.0.7",
     "resolve-package-path": "^4.0.3",
-    "terminal-image": "^2.0.0"
+    "terminal-image": "^1.2.1"
   }
 }
